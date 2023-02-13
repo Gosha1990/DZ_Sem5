@@ -16,6 +16,11 @@ int max = firstNumber;
 
  if ( firstNumber > max) max = firstNumber;
  if (secondNumber > max) max = secondNumber;
-Console.Write("max = ");
-Console.Write(max);
+ int min = secondNumber;
+ Console.Write(" max = ");
+ Console.Write(max);
+ if ( firstNumber < min) min = firstNumber;
+ if (secondNumber < min) min = secondNumber;
+Console.Write(" min = ");
+Console.Write(min);
 
